@@ -1,0 +1,18 @@
+server:
+  port: 1299
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: YIMAI-CONFIG-SERVER #spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/huangsir333/hy3333.git  #git文件地址
+          username: huangsir333 #GitHub账户信息
+          password: hy641928690

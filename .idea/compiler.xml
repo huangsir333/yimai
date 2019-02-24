@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yimai_base_util" />
+        <module name="yimai_config_server_1299" />
+        <module name="yimai_eureka_server_7001" />
+        <module name="yimai_plat_interface" />
+        <module name="yimai_plat_service_8001" />
+        <module name="yimai_zuulserver_9527" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="yimai_base_parent" target="1.5" />
+      <module name="yimai_base_util" target="1.5" />
+      <module name="yimai_config_server_1299" target="1.5" />
+      <module name="yimai_eureka_server_7001" target="1.5" />
+      <module name="yimai_parent" target="1.5" />
+      <module name="yimai_plat_interface" target="1.5" />
+      <module name="yimai_plat_parent" target="1.5" />
+      <module name="yimai_plat_service_8001" target="1.5" />
+      <module name="yimai_zuul_server_9527" target="1.5" />
+      <module name="yimai_zuulserver_9527" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

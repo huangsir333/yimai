@@ -12,7 +12,17 @@ eureka:
     prefer-ip-address: true
 zuul:   #这里定义映射规则
   routes:
-    hy.serviceId: EMPLOYEE-PROVIDER
-    hy.path: /hy/**
-  ignored-services: user-provider  #user-provider #(此处需要小写！！)忽略直接使用服务名访问  *忽略所有的
-  prefix: "/yimai"  #配置前缀。
+    hy.serviceId: EMPLOYEE-PROVIDER-TEST
+    hy.path: /employee/**
+          #产品的服务路由:
+    yimaiProduct.serviceId: YIMAI-PRODUCT
+    yimaiProduct.path: /product/**
+#    公共代码的服务路由
+    yimaiCommon.serviceId: COMMON-PROVIDER
+    yimaiCommon.path: /common/**
+  ignored-services: "*" #user-provider-test这个可以
+  #user-provider #(此处需要小写！！)忽略直接使用服务名访问  "*"忽略所有的
+  prefix: "/yimai" #配置前缀。
+  host:
+    connect-timeout-millis: 15000 #配置这里是因为出现gateway timeout
+    socket-timeout-millis: 60000

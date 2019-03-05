@@ -4,12 +4,18 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yimai_base_parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yimai_base_parent/yimai_base_util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yimai_common_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yimai_common_parent/yimai_common_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yimai_common_parent/yimai_common_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yimai_config_server_1299" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yimai_eureka_server_7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yimai_mp_generated" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yimai_plat_parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yimai_plat_parent/yimai_plat_interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yimai_plat_parent/yimai_plat_service_8001" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/yimai_zuul_server_9527" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yimai_product_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yimai_product_parent/yimai_product_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yimai_product_parent/yimai_product_service_8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yimai_zuulserver_9527" charset="UTF-8" />
   </component>
 </project>

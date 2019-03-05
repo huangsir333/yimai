@@ -1,9 +1,22 @@
-server:
-  port: 8001
+#spring:
+#  cloud:
+#    config:
+#      uri: http://127.0.0.1:1299 #配置服务器
+#      label: master #分支
+#      name: application-plat-service #github上面名称
+#      profile: test #环境
+##      上面的意思是去GitHub上去拿数据，并且将数据放在我们的注册中心上去而已
 spring:
   application:
-    name: EMPLOYEE-PROVIDER #不要使用下划线，服务的名称
+    name: EMPLOYEE-PROVIDER-TEST
+server:
+  port: 8001
+
 eureka:
   client:
     service-url:
      defaultZone: http://localhost:7001/eureka/ #告诉服务提供者要把服务注册到哪儿，注册中心的地址
+  instance:
+    prefer-ip-address: true #显示客户端真实ip
+#    这个为了fastdfs直接调用本地配置，不在去网上拉数据
+

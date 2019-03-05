@@ -1,0 +1,12 @@
+server:
+  port: 8003
+  max-http-header-size: 1048576 #这里会报个错误 Request header is too large
+spring:
+  application:
+    name: COMMON-PROVIDER
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/

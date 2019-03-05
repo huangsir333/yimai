@@ -13,3 +13,4 @@ public class App_9527 {
         SpringApplication.run(App_9527.class);
     }
 }
+

@@ -15,10 +15,10 @@ public class EmployeeController {
     public AjaxResult longin(@RequestBody Employee employee){
 
         if ("admin".equals(employee.getName())&&"admin".equals(employee.getPassword())){
-            return AjaxResult.get();
+            return AjaxResult.me();
         }else {
 
-            return AjaxResult.get().setSuccess(false).setMsg("登录出错");
+            return AjaxResult.me().setSuccess(false).setMsg("登录出错");
         }
     }
 }

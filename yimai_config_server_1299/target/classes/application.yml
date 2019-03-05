@@ -13,6 +13,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/huangsir333/hy3333.git  #git文件地址
+          uri: https://github.com/huangsir333/yimai_config.git  #git文件地址
           username: huangsir333 #GitHub账户信息
           password: hy641928690

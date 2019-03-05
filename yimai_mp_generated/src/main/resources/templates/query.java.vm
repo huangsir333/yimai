@@ -1,0 +1,10 @@
+package cn.alibaba.yimai.query;
+
+import cn.alibaba.yimai.query.BaseQuery;
+/**
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+public class ${table.entityName}Query extends BaseQuery{
+}
